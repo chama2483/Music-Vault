@@ -1,2 +1,2 @@
 # Music-Vault
-Online Music Player
+Music Player
