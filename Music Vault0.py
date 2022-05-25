@@ -99,8 +99,8 @@ topframe = Frame(rightframe)
 topframe.pack()
 lengthlabel = ttk.Label(topframe, text='Total Length : --:--')
 lengthlabel.pack(pady=5)
-currenttimelabel = ttk.Label(topframe, text='Current Time : --:--', relief=GROOVE)
-currenttimelabel.pack()
+#currenttimelabel = ttk.Label(topframe, text='Current Time : --:--', relief=GROOVE)
+#currenttimelabel.pack()
 
 def show_details(play_song):
     file_data = os.path.splitext(play_song)
